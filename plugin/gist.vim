@@ -442,7 +442,7 @@ function! Gist(line1, line2, ...)
       endif
     endif
     if len(url) > 0 && exists('g:gist_clip_command')
-      exec 'silent ! echo "' . url . '" | ' . g:gist_clip_command
+      exec 'silent w ! echo "' . url . '" | ' . g:gist_clip_command
     endif
   endif
   return 1
