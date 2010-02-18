@@ -5,7 +5,7 @@
 "         GNU General Public License version 2 for more details.
 
 hi NowBuf term=bold ctermfg=Cyan guifg=green guibg=blue gui=bold
-set statusline=%m\{%{&ff}:%{&fenc}:%Y}\ %{g:bufBef}%#NowBuf#%{g:bufCur}%#StatusLine#%{g:bufAft}%<%=%l,%c,%P,%L%<
+set statusline=%{g:bufBef}%#NowBuf#%{g:bufCur}%#StatusLine#%{g:bufAft}%<%=%l,%c,%P,%L%<
 
 let g:widthForBufList = winwidth(0) - 20
 
