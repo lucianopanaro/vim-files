@@ -77,10 +77,7 @@ set nohlsearch
 " Configure fuzzy finder textmate
 let g:fuzzy_ignore = "vendor/*;tmp/*;log/*"
 let g:fuzzy_enumerating_limit = 10
-let g:fuzzy_ceiling = 100000
-
-" Gist configuration
-let g:gist_clip_command = "xclip -selection clipboard"
+let g:fuzzy_ceiling = 10000
 
 " Other files.
 source ~/.vim/config/mappings.vim
