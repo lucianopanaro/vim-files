@@ -5,7 +5,7 @@ function! ExecuteFile()
   if stridx(file, "_test.rb") != -1
     call ExecuteTest()
   elseif stridx(file, "_spec.rb") != -1
-    call ExecuteTest()
+    call ExecuteSpec()
   elseif stridx(file, ".rb") != -1
     execute "!ruby -c %"
   endif

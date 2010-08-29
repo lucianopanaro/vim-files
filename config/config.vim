@@ -83,5 +83,6 @@ let g:fuzzy_ceiling = 10000
 source ~/.vim/config/mappings.vim
 source ~/.vim/config/execute-file.vim
 source ~/.vim/config/execute-test.vim
+source ~/.vim/config/execute-spec.vim
 source ~/.vim/config/tab-autocomplete.vim
 source ~/.vim/config/preview-results.vim
