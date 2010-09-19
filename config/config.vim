@@ -10,6 +10,8 @@ color vibrantink
 
 set pastetoggle=<F2>
 
+set hidden
+
 " Change default mapleader to a comma
 let mapleader = ","
 let maplocalleader = ","
@@ -39,8 +41,6 @@ hi TabLineFill cterm=bold ctermfg=Black ctermbg=DarkGray
 hi TabLineSel cterm=NONE ctermfg=White ctermbg=DarkRed
 hi StatusLine ctermfg=Gray ctermbg=Black
 hi StatusLineNC ctermfg=DarkGray ctermbg=Black
-hi CursorLine cterm=NONE  ctermbg=DarkGray
-" hi CursorLine cterm=NONE  ctermbg=DarkBlue
 hi MatchParen ctermbg=Black ctermfg=DarkYellow
 
 " Temp files

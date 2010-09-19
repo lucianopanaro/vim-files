@@ -1,3 +1,6 @@
+" Esc
+"map! <C-C> <Esc>
+
 " Copy/Paste
 map <C-Y> "+y
 map <C-P> "+p
