@@ -74,10 +74,8 @@ set number
 set incsearch
 set nohlsearch
 
-" Configure fuzzy finder textmate
-let g:fuzzy_ignore = "vendor/*;tmp/*;log/*"
-let g:fuzzy_enumerating_limit = 10
-let g:fuzzy_ceiling = 10000
+" Configure Command-T
+set wildignore+=*.o,*.obj,.git,tmp,*.log
 
 " Other files.
 source ~/.vim/config/mappings.vim

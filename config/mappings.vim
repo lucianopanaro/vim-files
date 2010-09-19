@@ -9,7 +9,7 @@ map <C-P> "+p
 map <C-Q> <ESC>:q<CR>
 
 " Fuzzy Finder TextMate
-map <C-O> :FuzzyFinderTextMate<CR>
+map <C-O> :CommandT<CR>
 
 " Move between buffers
 map <C-H> :bprevious<CR>
