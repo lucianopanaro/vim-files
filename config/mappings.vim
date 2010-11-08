@@ -1,5 +1,6 @@
 " Esc
-"map! <C-C> <Esc>
+ino jj <esc>
+cno jj <c-c>
 
 " Copy/Paste
 map <C-Y> "+y
