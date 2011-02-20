@@ -9,13 +9,16 @@ map <C-P> "+p
 " Easy Quit
 map <C-Q> <ESC>:q<CR>
 
-" Fuzzy Finder TextMate
+" CommandT
 map <C-O> :CommandT<CR>
+
+" MRU
+map <C-F> :MRU<CR>
 
 " Move between buffers
 map <C-H> :bprevious<CR>
 map <C-L> :bnext<CR>
-map <C-X> :bdelete<CR>
+map <C-Q> :bdelete<CR>
 
 " Toggle spell
 map <F4> <ESC>:set spell!<CR>
